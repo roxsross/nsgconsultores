@@ -1,121 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-	<title>Coming Soon 2</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Nsg Consultores</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
+
 <body>
-	
-	<!--  -->
-	<div class="simpleslide100">
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div>
-	</div>
+                        
+    <!-- home
+    ================================================== -->
+    <main class="s-home s-home--particles">
 
-	<div class="size1 overlay1">
-		<!--  -->
-		<div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
-			<h3 class="l1-txt1 txt-center p-b-25">
-				Coming Soon
-			</h3>
+        <!-- <div id="particles-js" class="home-particles"></div> -->
+        <!-- Background Video-->
+        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="images/mp4/bg.mp4" type="video/mp4" /></video>
+        <div class="gradient-overlay"></div>
 
-			<p class="m2-txt1 txt-center p-b-48">
-				Our website is under construction, follow us for update now!
-			</p>
+        <div class="home-content">
 
-			<div class="flex-w flex-c-m cd100 p-b-33">
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 days">35</span>
-					<span class="s2-txt1">Days</span>
-				</div>
+            <!-- <div class="home-logo">
+                <a href="index-particles.html">
+                    <img src="images/logo.svg" alt="Homepage">
+                </a>
+            </div> -->
 
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 hours">17</span>
-					<span class="s2-txt1">Hours</span>
-				</div>
-
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 minutes">50</span>
-					<span class="s2-txt1">Minutes</span>
-				</div>
-
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 seconds">39</span>
-					<span class="s2-txt1">Seconds</span>
-				</div>
-			</div>
-
-			<form class="w-full flex-w flex-c-m validate-form">
-
-				<div class="wrap-input100 validate-input where1" data-validate = "Valid email is required: ex@abc.xyz">
-					<input class="input100 placeholder0 s2-txt2" type="text" name="email" placeholder="Enter Email Address">
-					<span class="focus-input100"></span>
-				</div>
-				
-				
-				<button class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
-					Subscribe
-				</button>
-			</form>
-		</div>
-	</div>
+            <div class="row home-content__main">
 
 
+                <div class="col-eight home-content__text pull-right">
+                    <h3>Nsg Consultores</h3>
 
-	
+                    <h1>
+                        Simplificamos lo complejo 
+                    </h1>
+                    <h3>« nuestro secreto está en los detalles » <br> </h3>
 
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 35,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+                    <p>Proximamente</p>
+
+                    <div class="home-content__subscribe">
+                        <form id="mc-form" class="group" novalidate="true">
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                            <input type="submit" name="subscribe" value="Notify Me">
+                            <label for="mc-email" class="subscribe-message"></label>
+                        </form>
+                    </div>
+                </div>  <!-- end home-content__text -->
+
+                <div class="col-four home-content__counter">
+                    <h3>Launching In</h3>
+
+                    <div class="home-content__clock">
+                        <div class="top">
+                            <div class="time days">
+                                324
+                                <span>Days</span>
+                            </div>
+                        </div>    
+                        <div class="time hours">
+                            03
+                            <span>H</span>
+                        </div>
+                        <div class="time minutes">
+                            56
+                            <span>M</span>
+                        </div>
+                        <div class="time seconds">
+                            31
+                            <span>S</span>
+                        </div>
+                    </div>  <!-- end home-content__clock -->
+                </div>  <!-- end home-content__counter -->
+
+            </div>  <!-- end home-content__main -->
+
+            <ul class="home-social">
+                <li>
+                <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+                </li>
+                <li>
+                <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                </li>
+                <li>
+                <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                </li>
+                <li>
+                <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+                </li>
+                <li>
+                <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+                </li>
+            </ul> <!-- end home-social -->
+
+            <div class="row home-copyright">
+                <span>Copyright Nsg Consultores @2021</span> 
+                <span>Design by <a href="#">295devops</a></span>
+            </div> <!-- end home-copyright -->
+
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+    </main> <!-- end s-home -->
+
+
+    <!-- info
+    ================================================== -->
+    <a class="info-toggle" href="#0">
+        <span class="info-menu-icon"></span>
+    </a>
+
+    <div class="s-info">
+
+        <div class="row info-wrapper">
+
+            <div class="col-seven tab-full info-main">
+                <h1>Consultores Empresariales.</h1>
+                <p>
+                    Generamos soluciones ágiles y dinámicas en las diferentes áreas del ejercicio contable, 
+                    ofreciendo a nuestros clientes un servicio de consultoría, capacitación e implementación eficaz 
+                    y a la medida, con un equipo de trabajo que brinda conocimiento, confianza y amabilidad
+                </p>
+
+                <p>
+                    ¿Por qué elegirnos?
+                    Atendemos a nuestros clientes de manera permanente. 
+                    Una de nuestras características es la facilidad de nuestro equipo para adecuarse a las 
+                    diferentes empresas con las que trabajamos. Además, aprovechamos el uso de la tecnología, 
+                    logrando así ser más eficientes.
+                </p>
+            </div>
+
+            <div class="col-four tab-full pull-right info-contact">
+
+                <div class="info-block">
+                    <h3>Contactanos</h3>
+                    <p>
+                        <a href="mailto:#0" class="info-email">admin@nsgconsultores.com</a><br>
+                        <a href="tel:+58412999999" class="'info-phone">+1.858.733.8912</a>
+                    </p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Estamos</h3>
+                    
+                    <p class="info-address">
+                        Edificio Bahia de Guaraguao<br>
+                        Porlamar Nueva Esparta<br>
+                        6301
+                    </p>
+                </div>
+
+                <div class="info-block">
+                    <h3>Sigueme</h3>
+                    
+                    <ul class="info-social">
+                        <li>
+                            <a href="#0"><i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span>Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span>Twiiter</span></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span>Instagram</span></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i>
+                            <span>Behance</span></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i>
+                            <span>Dribbble</span></a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>  <!-- end info contact -->
+
+        </div>  <!-- end info wrapper -->
+
+    </div> <!-- end s-info -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/polygons.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
+
 </html>
